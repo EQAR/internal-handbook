@@ -1,0 +1,15 @@
+site_name: EQAR Internal Handbook
+pages:
+    - Introduction: index.md
+    - Organisational structure: structure.md
+    - Code of Conduct: code-of-conduct.md
+    - Management of the Register: register.md
+    - Practical information: practical.md
+    - Reference: references.md
+theme:
+    name: readthedocs
+    custom_dir: theme/
+extra_css: ["css/eqar.css"]
+markdown_extensions:
+  - footnotes
+
