@@ -1,3 +1,5 @@
+# Code of Conduct
+
 _Version 2.0, adopted by the Executive Board on 4 July 2019_
 
 ## Purpose and Scope

@@ -1,15 +1,34 @@
 site_name: EQAR Internal Handbook
-pages:
+nav:
     - Introduction: index.md
-    - Organisational structure: structure.md
-    - Code of Conduct: code-of-conduct.md
-    - Management of the Register: register.md
-    - Practical information: practical.md
-    - Reference: references.md
+    - structure.md
+    - Governance:
+        - gov-strategy.md
+        - code-of-conduct.md
+        - gov-budget.md
+    - Management of the Register:
+        - register-documents.md
+        - register-applications.md
+        - register-scr.md
+        - register-complaints.md
+        - register-extraordinary.md
+    - Logistics and Office Organisation:
+        - admin-it.md
+        - admin-travel.md
+        - admin-compensation.md
+        - admin-hr.md
+        - admin-office.md
+    - Appendix:
+        - references.md
 theme:
     name: readthedocs
-    custom_dir: theme/
+#    name: rtd-dropdown
+#    custom_dir: theme/
 extra_css: ["css/eqar.css"]
+plugins:
+    - search
 markdown_extensions:
-  - footnotes
+    - footnotes
+    - toc:
+        permalink: True
 

@@ -1,8 +1,8 @@
-## Overview
+# Organisational Structure
 
 The following organisational chart and table provide an overview of EQAR’s statutory bodies, their relationships and functions. The details are explained in the following sections.
 
-![Organisational Chart](img/OrganisationalChart_2017.png)
+![Organisational Chart](img/OrganisationalChart_2017.svg)
 
 <table class="docutils">
 	<tr>
@@ -133,7 +133,8 @@ The following organisational chart and table provide an overview of EQAR’s sta
 	</td></tr>
 </table>
 
-## Members, General Assembly and Members' Dialogue
+Members
+-------
 
 EQAR’s full members are:
 
@@ -149,13 +150,17 @@ All signatory countries of the Bologna Process (as well as the intergovernmental
 
 [Full list of members](https://www.eqar.eu/about/eqar-structure/members/)
 
+General Assembly
+----------------
+
 The General Assembly (GA) is the supreme decision-making body of the EQAR Association, comprising of all its members. Currently, there are four permanent observers at the GA: the European Commission, the Bologna Secretariat, the Council of Europe and UNESCO. They do not have voting rights. Further observers could be invited ad-hoc.
 
 The GA convenes annually and decides on the budget, approves the accounts, elects the Executive Board and Appeals Committee, and approves the Register Committee.
 
 The Members' Dialogue (MD) is an annual informal gathering, usually held in the autumn, to discuss current policy issues and the future strategic development of EQAR. The MD is an event for representatives of all members and for all members of EQAR's committees.
 
-## President
+President
+---------
 
 The President is responsible for the leadership of the whole organisation within the frame set by General Assembly, and refined through decisions of the Executive Board and the Register Committee. In particular, the President:
 
@@ -169,7 +174,8 @@ The President acts as the legal representative of EQAR and is supported in their
 
 To ensure their impartiality the President may not hold a function in any of EQAR’s members or any QA agencies while holding the position of President.
 
-## Executive Board
+Executive Board
+---------------
 
 The Executive Board (EB) is in charge of the ongoing management and strategic coordination of EQAR, including administrative and financial matters. The Executive Board comprises of five members: the President and one from each Founding Member
 
@@ -177,7 +183,8 @@ The Executive Board is elected by the General Assembly for a two-year mandate. I
 
 The Executive Board has agreed to annually rotate the different functions amongst its members. The EB convenes four to five times annually, normally at the EQAR office in Brussels or in conjunction with other meetings.
 
-## Register Committee
+Register Committee
+------------------
 
 The Register Committee (RC) is responsible for all matter related to the management of the Register as such. In particular, the RC:
 
@@ -213,7 +220,8 @@ Observers are expected to declare possible conflicts of interest and to recuse t
 
 Observers have full access to the RC's documents via the EQAR internal website (<https://www.eqar.eu/login/>). Observers are expected to respect the confidentiality of the RC's deliberations and all documents other than the Committee's published decisions.
 
-## Appeals Committee
+Appeals Committee
+-----------------
 
 Applicants may appeal decisions of the Register Committee on procedural grounds or in case of perversity of judgement. The Appeals Committee (AC) has the responsibility to consider appeals.
 
@@ -221,17 +229,17 @@ The Appeals Committee consists of a chair, two further members, a deputy chair a
 
 The Appeals Committee is elected for a mandate of four years. The members and deputy members of the AC can be re-elected once. The AC convenes as necessary. In case of appeals the Committee has 120 days to decide on whether to accept or reject the appeal. 
 
-## Secretariat
+Secretariat
+-----------
 
 The Secretariat is in charge of the daily management and administration of EQAR. It supports all other statutory bodies and facilitates internal communication; serves as a contact point for agencies, members, partners and externals; and represents EQAR externally in consultation with the President.
 
-The Secretariat currently (2018) includes staff with the following positions:
+The Secretariat currently (2020) includes staff with the following positions:
 
  -   Director (full-time)
- -   Policy Analyst (full-time)
- -   Events and Communications Officer (0,7 FTE)
- -   Database Analyst (0,5 FTE)
+ -   Sernior Policy Analyst (full-time)
  -   Policy and Project Officer (full-time)
+ -   Communications Officer (0,7 FTE)
 
 Based on a permanent mandate by the President, the Director also represents EQAR legally.
 

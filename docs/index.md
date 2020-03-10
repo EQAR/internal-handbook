@@ -1,17 +1,15 @@
 EQAR Internal Handbook
 ======================
 
-This **Internal Handbook** aims to be a helpful information resource for your work. It targets the Register Committee in particular, but also includes information that will be useful for members of the Executive Board, the Appeals Committee and the Secretariat.
+This **Internal Handbook** aims to inform and support your work as EQAR staff member or serving on one of EQAR's committees (Register Committee, Executive Board or Appeals Committee).
 
-The first version of this Handbook was created in 2010, after EQAR’s first Joint Informal Meeting of committees. The Handbook was revised in 2014 and 2015, in order to take account of changes in EQAR's Procedures for Applications.
+The first version of this Handbook was created in 2010, after EQAR’s first Joint Informal Meeting of committees, and revised in 2014 and 2015, in order to take account of changes in EQAR's Procedures for Applications. While earlier versions of the Handbook targeted primarily the EQAR Register Committee, the present version is the result of a more substantial revision, integrating a number of additional issues that are relevant for staff and other committees.
 
-The objective of the Handbook is to acquaint “newcomers” on EQAR’s committees with their responsibilities, roles, established procedures and working methods. In addition, it includes all relevant practical information. For existing committee members it should be a practical reference document, which may be consulted from time to time on specific questions.
+The Handbook includes a description of [EQAR's organisational structure](structure.md), followed by three substantial chapters addressing (1) governance and strategy, (2) the management of the Register (incl. DEQAR) and (3) logistical and administrative issues.
 
-Any feedback on the current version would be a great help for future revisions: are the right issues addressed, or are important matters missing? What is unnecessarily detailed and what requires more in depth explanation? Is the information straight-forward and easy to understand?
+As a small organisation, EQAR can only realise its activities thanks to the invaluable commitment of those who contribute their time and effort as members of its committees. I hope this Handbook will be a useful tool to facilitate your involvement in EQAR. Any feedback on the current version would be a great help for future revisions.
 
-As a small organisation, EQAR can only realise its activities thanks to the invaluable commitment of those who contribute their time and effort as members of its committees. I hope this Handbook will be a useful tool to facilitate your involvement in EQAR.
-
-Colin Tük
+Colin Tück
 (Director, EQAR Secretariat)
 
 > **The handbook has been revised recently.** Please send any comments and suggestions to [info@eqar.eu](mailto:info@eqar.eu).
