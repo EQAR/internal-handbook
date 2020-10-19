@@ -55,6 +55,8 @@ EQAR provides a workplace with a high degree of flexibility and self-responsibil
 
 * Once you are sufficiently proficient and autonomous in your tasks, you may work up to 50% of your time from outside the office (home, café or any other place), provided the nature of your current tasks permits. During those times, make sure you are reachable on Slack within the core hours.
 
+> Due to the Covid-19 pandemic and in line with Belgian government guidelines, remote work from home is the norm for the time being and until further notice. Staff may only come to the office for urgent matters that cannot be performmed from home; the usual distance and hygiene measures need to be observed.
+
 * If you are not at the office during core hours on a work day (whether at a meeting, working from home or taking holidays), you need to note this in the calendar.
     * For less than half a week, you can do so without special agreement, but you are responsible for ensuring that it doesn't disrupt any urgent tasks - your own or colleagues'.
     * For longer periods (e.g. vacation), you should agree those with the Director beforehand.
