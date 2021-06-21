@@ -109,9 +109,9 @@ Some services are restricted and accessible only from EQAR's own network. Office
 
 To access those services while travelling or when at home, you need to be connected to the Virtual Private Network (VPN). The VPN establishes a secure, encrypted connection (called a tunnel) between your device and the EQAR network, so that all further connections to devices on the EQAR network are as secure as if you were connected physically to the office network.
 
-The VPN solution used by EQAR is [OpenVPN](https://openvpn.net/), the application providing a graphical user interface to OpenVPN on macOS is [Tunnelblick](https://tunnelblick.net/). The `EQAR-VPN` connection is pre-configured on your laptop. It includes a personal cryptographic key that gives access to the network. If your device was stolen or someone gained unauthorized access to it, the key will be revoked and you receive a new key.
+The VPN solution used by EQAR is [WireGuard](https://www.wireguard.com/). The `EQAR-VPN` connection is pre-configured on your laptop. It includes a personal cryptographic key that gives access to the network. If your device was stolen or someone gained unauthorized access to it, the key will be removed from the list of authorised keys and you receive a new key.
 
-The software should be started automatically when you log in and connects automatically when an internet links is available. You should leave Tunnelblick connected at all times.
+The software should be started automatically when you log in and can be configured to connect automatically when an internet link is available. You should leave WireGuard connected at all times.
 
 ## Email
 
@@ -284,7 +284,7 @@ The following would be a typical number of files for a formal document:
 * `RC26_03_1_NewSpecialPolicy_v0_2.pdf`: version 0.2 – e.g. revised draft
 * `RC26_03_1_NewSpecialPolicy_v1_0.pdf`: version 1.0 – (first) final
 * `RC26_03_1_NewSpecialPolicy_v1_1.pdf`: version 1.1 – draft revision
-* `RC26_03_1_NewSpecialPolicy_v2_0.pdf`: version 2.0 – (revised) finala
+* `RC26_03_1_NewSpecialPolicy_v2_0.pdf`: version 2.0 – (revised) final
 
 If there are good reasons, you can always choose a different structre.
 
@@ -405,29 +405,25 @@ The office network is a Gigabit Ethernet network managed by a switch. Cabling an
  1. The **EQAR internal LAN** (_VLAN 50, IPv4 subnet 10.7.7.0/24, WiFi eqar-staff_) has full access to all hosts and services. It is for staff and committee members.
  1. The **Guest network** (_VLAN 51, IPv4 subnet 10.10.10.0/24, WiFi eqar-guest_) has internet access, but no privileged access to hosts and services. It is for guest use.
 
-In addition, there are two VPN networks:
-
- 1. The **EQAR VPN** (_IPv4 Subnet: 10.8.8.0/24_) is where all mobile devices connect to.
- 1. One subnet (_IPv4 subnet 10.9.9.0/24_) links the office file server and the application server VPS. It is not visible to other devices than the two endpoints.
+The **EQAR VPN** (_IPv4 subnet: 10.12.0.0/16_) includes the cloud infrastructure and VPN clients. It is subdivided in a number of /24 subnets, as detailed in the table below.
 
 ![Overview EQAR office network and VPN](img/Chart_EQAR-network.svg)
 
-Traffic is fully routed between the EQAR internal LAN and VPN.
+Traffic is fully routed between the EQAR internal LAN and VPN. Mobile clients have two WireGuard endpoints (office sever and VPS) configured, creating some degree of redundancy.
 
-Internal DNS servers run on the office file server and the VPN server (application server VPS). Office clients use the former as primary and the latter as secondary DNS resolver, VPN clients use the latter. The internal DNS servers resolve `appsrv.eqar.eu`, `backend.deqar.eu`, `testing.eqar.eu` and `webapps.eqar.eu` to their internal IP addresses, so that all services are accessed through the EQAR network/VPN, when connected to it. This extends to all additional DNS names of these VPS, except `vpn.eqar.eu` (as the VPN connection itself can't be routed through the VPN for obvious reasons).
+Internal DNS servers run on the office file server and the application server VPS. Office clients use the former as primary and the latter as secondary DNS resolver, VPN clients vice-versa. The VPS hosts the master copy of internal zones, the office server functions as slave.
 
-The canonical way to test connection to the EQAR network is to open <https://appsrv.eqar.eu/>: it leads to the internal portal from the VPN or LAN, and to an access-denied page from external IPs.
+The internal DNS servers resolve `appsrv.eqar.eu`, `backend.deqar.eu`, `testing.eqar.eu` and `webapps.eqar.eu` to their internal IP addresses, so that all services are accessed through the EQAR network/VPN, when connected to it. This extends to all additional DNS names of these VPS, except `vpn.eqar.eu` (as the VPN connection itself can't be routed through the VPN for obvious reasons).
+
+The canonical way to test the connection to the EQAR network is to open <https://appsrv.eqar.eu/>: it leads to the internal portal from the VPN or LAN, and to an access-denied page from external IPs.
 
 The following tables summarise the statically and dynamically assigned IP addresses in the networks:
 
 | Public IP     | Host                                      | DNS name(s)                                                                           | Services (available publicly)                                                                                                 | 
 | ------------- | ----------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 94.140.184.29 | EQAR file server (public IP via Neth-ER)  | office.eqar.eu                                                                        | SSH (222 → 10.7.7.10),<br />OpenVPN (1194/5),<br />SIP (5060/1),<br />RTP (10000/100 → 10.7.7.11) |
-| 212.44.103.25 | EQAR application server (VPS)             | appsrv.eqar.eu,<br />various CNAMEs,<br />vpn.eqar.eu                                 | HTTP & HTTPS<br />OpenVPN<br />LDAP (from websrv)<br />SSH (from known IPs)                       |
-| 212.44.103.26 | EQAR test server (VPS)                    | testing.eqar.eu,<br />test.eqar.eu,<br />\*.testzone.eqar.eu,<br />sandbox.eqar.eu    | HTTP & HTTPS                                                                                      |
-| 212.44.103.27 | EQAR web applications (VPS)               | webapps.eqar.eu,<br />code.eqar.eu                                                    | HTTP & HTTPS                                                                                      |
-| 212.44.104.89 | DEQAR backend (VPS)                       | backend.deqar.eu,<br />various CNAMEs                                                 | HTTP & HTTPS                                                                                      |
-| 212.44.104.63 | EQAR webserver (VPS)                      | www.eqar.eu<br />\*.eqar.eu                                                           | HTTP & HTTPS                                                                                      |
+| 94.140.184.29 | EQAR file server (public IP via Neth-ER)  | office.eqar.eu                                                                        | SSH (222 → 10.7.7.10),<br />WireGuard (10100),<br />SIP (5060/1),<br />RTP (10000/50 → 10.7.7.11) |
+| 212.44.107.66 | EQAR application server (KVM VPS)         | appsrv.eqar.eu,<br />various CNAMEs,<br />vpn.eqar.eu                                 | HTTP & HTTPS<br />WireGuard (51820)<br />LDAP (from websrv)<br />SSH (from known IPs)             |
+| 212.44.104.63 | EQAR webserver (LXC VPS)                  | www.eqar.eu<br />\*.eqar.eu                                                           | HTTP & HTTPS                                                                                      |
 
 | LAN IP                        | Host                                  | Services (interal)                                                                                            | Host config   |
 | ----------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -456,18 +452,16 @@ The following tables summarise the statically and dynamically assigned IP addres
 | _10.7.7.200-253_              | _reserved (future use)_               |                                                                                                               |               |
 | 10.7.7.254                    | Managed switch (Cisco SG200-26P)      |                                                                                                               | static        |
              
-| VPN IP        | Host                          | Services (in addition to public)                                                          | Host config       |
-| ------------- | ----------------------------- | ----------------------------------------------------------------------------------------- | ----------------- |
-| 10.8.8.1      | EQAR application server (VPS) | SSH<br />DNS<br />LDAP<br />MariaDB<br />Kerberos KDC & kadmin see above (appsrv.eqar.eu) | static            |
-| 10.8.8.2-100  | Pool for VPN clients          |                                                                                           | dynamic (OpenVPN) |
-| 10.8.8.200    | DEQAR backend (VPS)           | SSH<br />PostgreSQL                                                                       | static            |
-| 10.8.8.220    | EQAR web applications (VPS)   | SSH                                                                                       | static            |
-| 10.8.8.230    | EQAR test server (VPS)        | SSH<br />MariaDB                                                                          | static            |
-
-| VPN bridge IP | Host                          | Services  | Host config   |
-| ------------- | ----------------------------- | --------- | ------------- |
-| 10.9.9.1      | EQAR application server (VPS) | see above | static        |
-| 10.9.9.2      | EQAR file server              | see above | static        |
+| VPN IP            | Host                          | Services (in addition to public)                                                          | Host config       |
+| ----------------- | ----------------------------- | ----------------------------------------------------------------------------------------- | ----------------- |
+| 10.12.0.1         | EQAR application server (VPS) | SSH<br />DNS<br />LDAP<br />MariaDB<br />Kerberos KDC & kadmin see above (appsrv.eqar.eu) | static            |
+| _10.12.0/24_      | _reserved (future use)_       | _routed to application server_                                                            |                   |
+| 10.12.1.1         | EQAR file server (office)     | see above                                                                                  | static           |
+| _10.12.1/24_      | _reserved (future use)_       | _routed to file server_                                                                   |                   |
+| 10.12.10/24       | Containers (systemd-nspawn)   | running on application server                                                             |                   |
+| 10.12.11/24       | Containers (Docker)           | running on application server                                                             |                   |
+| 10.12.12/24       | VPN clients                   | only IPs 100-250 used                                                                     |                   |
+| 10.12.100-250/24  | VPN clients (local subnets)   | one /24 subnet is reserved for and routed to each client                                  |                   |
 
 | Guest IP          | Host                          | Services                              | Host config   |
 | ----------------- | ----------------------------- | ------------------------------------- | ------------- |
@@ -489,9 +483,9 @@ Office computers and laptops are configured and managed through:
 
 LDAP service is provided by [OpenLDAP](https://www.openldap.org/)'s slapd.
 
-EQAR users, groups and network configuration (e.g. automounts) are stored under `ou=users,dc=eqar,dc=eu`. This tree is served by `appsrv.eqar.eu` as master and by `files.eqar.eu` as a replication for redundancy; machines dependant on the common user database have both servers configured.
+EQAR users, groups and network configuration (e.g. automounts) are stored under `ou=users,dc=eqar,dc=eu`. This tree is served by `ldap.int.eqar.eu` (alias for `auth-prod` container) as master and by `ldap-1.int.eqar.eu` (alias for `files` server) as a replication for redundancy; machines dependant on the common user database have both servers configured.
 
-In addition, `appsrv` also provides read-only access to the EQAR contact DB via LDAP under `dc=Contacts,dc=eqar,dc=eu`.
+In addition, `ldap-contacts.int.eqar.eu` (alias for `php-prod` container) provides read-only access to the EQAR contact DB via LDAP under `dc=Contacts,dc=eqar,dc=eu`.
 
 #### Staff user template
 
@@ -544,9 +538,9 @@ objectClass: posixGroup
 
 Kerberos 5 is used for central password database and single sign-on in EQAR. The realm used is `EQAR.EU`.
 
-The primary Kerberos database is hosted on `appsrv`; this machine provides both Key Distribution Center (KDC) and administration server (e.g. for password change) service.
+The primary Kerberos database is hosted on `auth-prod` (alias: `kerberos.int.eqar.eu`); this machine provides both Key Distribution Center (KDC) and administration server (e.g. for password change) service.
 
-A backup KDC is run on `files`, serving a replica of the Kerberos database. The database is propagated every 15 minutes, triggered by a systemd timer on `appsrv`, contacting kpropd(8) on `files`.
+A backup KDC is run on `files` (alias: `kerberos-1.int.eqar.eu`), serving a replica of the Kerberos database. The database is propagated every 15 minutes, triggered by a systemd timer on `auth-prod`, contacting kpropd(8) on `files`.
 
 ### Single Sign-On
 
@@ -562,6 +556,8 @@ The following tables shows which service/application used which approach:
 | ------------- | -------------- | ------------ |:----------:|:----------:|:---------:|
 | NextCloud     | LDAP           | LDAP         | X          | X          | X         |
 | Slack         | SAML           | n/a          | X          |            | X         |
+| Trello        | SAML via Slack | n/a          | X          |            |           |
+| Zoom          | SAML           | n/a          | X          | limited    | limited   |
 | Wordpress     | LDAP           | local        | X          | X          |           |
 | Matomo        | LDAP           | n/a          | X          |            |           |
 | Contact DB    | PAM            | n/a          | X          |            |           |
@@ -578,9 +574,7 @@ Login to these services is currently **not** integrated in the single sign-on so
 | DEQAR         | web, REST API | individual |
 | Email         | IMAP          | individual |
 | FCm           | web           | individual |
-| Trello        | web           | individual |
 | Formsite      | web           | shared     |
-| Zoom          | web, Zoom.app | shared     |
 
 ### File server
 
