@@ -6,7 +6,7 @@ This section provides an overview of the official documents that govern the mana
 
 The EQAR Statutes stipulate that substantial compliance with the Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG) is the criterion for inclusion on the Register (see Article 20). The Statutes further provide that the Register Committee decides on inclusion on the Register, and entrust the Committee with elaborating Procedures for Applications to regulate all further details.
 
-[EQAR Statutes, Version 3.0, April 2017](https://www.eqar.eu/assets/uploads/2018/04/EQAR_Statutes_ENv3_0-2017.pdf)
+[EQAR Statutes, Version 3.0, April 2017](https://www.eqar.eu/about/official-documents/#statutes-articles-of-association)
 
 ## ESG
 
@@ -20,7 +20,7 @@ Based on the Statutes, the Procedures for Applications reaffirm that substantial
 
 The ESG are structured in three parts, covering (1) internal (institutional) quality assurance, (2) external quality assurance of higher education and (3) external quality assurance agencies. Parts 2 and 3 are directly relevant for inclusion on EQAR, whereas part 1 is relevant indirectly through reference to it in standard 2.1.
 
-[Standards and Guidelines for Quality Assurance in the EHEA (ESG), May 2015](https://www.eqar.eu/assets/uploads/2018/04/ESG_2015.pdf)
+[Standards and Guidelines for Quality Assurance in the EHEA (ESG), May 2015](https://www.eqar.eu/kb/esg/)
 
 ## Procedures for Applications
 
@@ -30,13 +30,13 @@ The first version of the Procedures were adopted by the Register Committee in co
 
 > Relevant parts of the Procedures are quoted in the following sections.
 
-[Procedures for Applications, Version 3.0, June 2015](https://www.eqar.eu/assets/uploads/2018/04/Procedures_For_Applicationsv3.0.pdf)
+[Procedures for Applications, Version 3.0, June 2015](https://www.eqar.eu/about/official-documents/#procedures-for-applications)
 
 ## Appeals Procedure
 
 Applicants can file an appeal against decisions of the Register Committee on procedural grounds or in the case of perversity of judgement. The official rules are specified in the Appeals Procedure.
 
-[Appeals Procedure, Version 1.0, May 2008](https://www.eqar.eu/assets/uploads/2018/04/AppealsProcedurev1.0-2008.pdf)
+[Appeals Procedure, Version 1.0, May 2008](https://www.eqar.eu/about/official-documents/#appeals-procedure)
 
 ## Policy on the Use and Interpretation of the ESG
 
@@ -44,7 +44,7 @@ Applicants can file an appeal against decisions of the Register Committee on pro
 
 In relation to the transition to the ESG 2015, the Register Committee adopted a new document providing an ex-ante transparency of the official EQAR interpretation of the ESG. The Policy on the Use and Interpretations of the ESG replaced the “Practices and Interpretations” and aims to increase transparency, understanding and consistency within the decision-making process of the Register Committee. The main target groups of the policy are the quality assurance agencies, the external review coordinators and the external review panels.
 
-[Policy on the Use and Interpretation of the ESG, Version 2.0, November 2017](https://www.eqar.eu/assets/uploads/2018/04/UseAndInterpretationOfTheESGv2_0.pdf)
+[Policy on the Use and Interpretation of the ESG, Version 3.0, September 2020](https://www.eqar.eu/about/official-documents/#use-and-interpretation-of-the-esg)
 
 ## Other Policies
 
@@ -56,17 +56,17 @@ To date, the following policies exist:
 
  -  The **Merger Policy** addresses situations in which registered agencies are merged with other agencies or organisations.
 
-    [Merger Policy, Version 1.0, May 2012](https://www.eqar.eu/assets/uploads/2018/04/agency_mergersv1.0.pdf)
+    [Merger Policy, Version 1.0, May 2012](https://www.eqar.eu/about/official-documents/#merger-policy)
 
  -  The **Complaints Policy** sets out how third-party concerns about registered agencies are handled.
 
-    [Complaints Policy, Version 3.0, January 2015](https://www.eqar.eu/assets/uploads/2018/04/Complaints_Policyv3.0.pdf)
+    [Complaints Policy, Version 3.0, January 2015](https://www.eqar.eu/about/official-documents/#complaints-policy)
 
-## Guide for Applicants
+## Guide for Agencies
 
-The EQAR Guide for Applicants is produced by the Secretariat as an additional resource for applicant QA agencies. The Guide summarises all provisions of the Procedures for Applications in plain, non-legal language. The Guide is an explanatory document. Only the Procedures for Applications are binding in the Register Committee’s decision making.
+The EQAR Guide for Agencies is produced by the Secretariat as an additional resource for applicant QA agencies. The Guide summarises all provisions of the Procedures for Applications in plain, non-legal language. The Guide is an explanatory document. Only the Procedures for Applications are binding in the Register Committee’s decision making.
 
 Applicants are invited to complete a feedback questionnaire on the Guide after their application, and the Guide is revised as necessary based on the feedback received.
 
-[Guide for Applicants, Version 4.0, August 2015](https://www.eqar.eu/assets/uploads/2018/04/EQAR_GuideForApplicants.pdf)
+[Guide for Agencies](https://www.eqar.eu/register/guide-for-agencies/)
 

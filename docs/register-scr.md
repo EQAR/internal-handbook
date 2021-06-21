@@ -8,7 +8,7 @@ Registered agencies are required to report any substantive changes to EQAR:
 >
 > 6.2 The Register Committee shall consider whether these changes warrant an extraordinary revision of registration.
 
-The objective of such reports is that EQAR becomes aware of situations were an agency's current practice differs substantially from the situation when it was reviewed against the ESG and admitted to the Register. Extensive information on reporting changes has been made available to registered agencies in the Guide for Applicants and Registered Agencies, so as to assist them in preparing a Substantive Change Report.
+The objective of such reports is that EQAR becomes aware of situations were an agency's current practice differs substantially from the situation when it was reviewed against the ESG and admitted to the Register. Detailed information on reporting changes is made available to registered agencies in the Guide for Agencies, so as to assist them in preparing a Substantive Change Report.
 
 ## Process
 

@@ -12,11 +12,13 @@ EQAR staff can find an internal portal with links to all relevant sites and serv
 
 One single login/account is used for office computers, most EQAR-hosted services (e.g. NextCloud) and some external services. Your username is the first letter of your first name, followed by your lastname, all in small letters and without diacritics. For example, `jdoe` for John Doe.
 
+You can manage your account and change your password at <https://accounts.eqar.eu/>.
+
 ### Reset Password
 
 In order to activate your login, you will have to use the password reset function:
 
- 1. Go to <https://sso.eqar.eu/reset-password/>.
+ 1. Go to <https://accounts.eqar.eu/reset-password/>.
 
  1. Enter your username or the email address to which your account is linked.
 
@@ -24,18 +26,18 @@ In order to activate your login, you will have to use the password reset functio
 
 If you forgot your password, use the same password reset function.
 
-EQAR staff users can also change their password at <https://appsrv.eqar.eu/tools/profile/>.
-
 ### Services
 
 The EQAR user login is used for the following services:
 
 - NextCloud <https://cloud.eqar.eu/>
 - Slack <https://eqarworkspace.slack.com/>
+- Zoom <https://eqar-eu.zoom.us/signin>
 - WordPress admin <https://www.eqar.eu/edit/>
 - Website analytics <https://analytics.eqar.eu/>
-- Contact database <https://appsrv.eqar.eu/db/>
+- Contact database <https://db.int.eqar.eu/>
 - Limesurvey <https://survey.eqar.eu/admin/>
+- Trello <https://trello.com/login> (via Slack: click "Log in with SSO", then "Continue with Slack")
 - Office desktop computer login
 - File sharing access
 
@@ -44,16 +46,16 @@ The following acounts are _separate_, i.e. each have their own username/password
 - Email: your email account has a separate password, which can be changed through the [webmail interface](https://webmail.all-inkl.com/). The login name is your email address, `firstname.lastname@eqar.eu`
 - DEQAR [backend](https://admin.deqar.eu/): your username for the DEQAR backend is separate.
 - Laptop: since it is not always connected to the network, your login on the laptop is local and with a separate password. The username is your firstname, in small letters, e.g. `john` for John Doe.
-- Personal accounts for [Trello](https://www.trello.com/) (team TO DO board) and [FCm Arrivon](https://www.arrivonbyfcm.be/prdtlc/home.do?country=BE&language=en&BV_UseBVCookie=no&company=eqarbe&siteKey=FCM%23BE) (travel booking).
-- Shared accounts (one account used by all staff) are in use for [Formsite](https://fs1.formsite.com/form_app/FormSite?FormId=LoadLogin&Auto), [Zoom](https://zoom.us/) and some other services.
+- Personal accounts for [FCm Arrivon](https://www.arrivonbyfcm.be/prdtlc/home.do?country=BE&language=en&BV_UseBVCookie=no&company=eqarbe&siteKey=FCM%23BE) (travel booking).
+- Shared accounts (one account used by all staff) are in use for [Formsite](https://fs1.formsite.com/form_app/FormSite?FormId=LoadLogin&Auto) and some other services.
 
 ## Video Conferences
 
 > **Relevant for:** staff, committee members, externals (e.g. project partners)
 
-EQAR uses [Zoom](https://zoom.us/) for audio and video conferences.
+EQAR uses [Zoom](https://eqar-eu.zoom.us/signin) for audio and video conferences.
 
-As EQAR staff hosting a conference, you should log in with the shared username/password. Please share the meeting link and room ID with participants before the meeting.
+As EQAR staff hosting a conference, you should log in with your EQAR user. Please share the meeting link and room ID with participants before the meeting.
 
 As participant, you only need the link received from the EQAR staff member hosting the conference.
 
