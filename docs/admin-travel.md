@@ -1,56 +1,50 @@
 # Travel
 
-## Online Booking Tools
+## Online Booking Tool
 
-EQAR works with a travel agency, FCm Travel, that also provides an on-line booking tool, named Arrivon.
+EQAR works with a travel agency, FCm Travel, that provides an on-line booking tool, named SEEQA. SEEQA is to be used for flight/train bookings, to EQAR meetings or any external meetings where EQAR covers your costs. Kindly contact FCm Travel by phone or email if your travel cannot be booked through the tool. 
 
-For your flights to EQAR meetings or any external meetings where EQAR covers your costs, please use the on-line tool or contact FCm Travel by phone or email if your travel cannot be booked through the tool. When booking through FCm there is no need to advance your travel costs, as EQAR will be invoiced directly. In case of unforeseen travel problems you will be able to access a 24H helpline (see below).
+**Advantages**  
+When booking through FCm there is no need to advance your travel costs, as EQAR will be invoiced directly. In case of unforeseen travel problems you will be able to access a 24H helpline (see below).
 
-### Arrivon: flights
+### How to use SEEQA
 
-The on-line booking tool is intuitive and resembles a typical public travel booking site that you could find on the internet. In case of questions, please refer to the key steps below or the [detailed user manual](files/Arrivon_UserGuide.pdf) provided by FCm.
+The on-line booking tool is intuitive and resembles a typical public travel booking site that you could find on the internet. In case of questions, please refer to the key steps below or the [Video tutorials, the FAQs or the User Guides provided by FCm in the Training library](https://rise.articulate.com/share/mffOwGxBaD30VHn-qy1Oj0oT1h4QkbrF#/).
 
-The tool can be found at:
+**To start**  
+Go to <https://hub.fcm.travel/EQARBE>
 
-<https://www.arrivonbyfcm.be/prdtlc/home.do?country=BE&language=en&BV_UseBVCookie=no&company=eqarbe&siteKey=FCM%23BE>
+**Login**  
+Fill in your username (your email) and then click on "forgot your password". You will receive an email to reset your password. If the system does not recognise you, please ask the EQAR Secretariat to add you to the system as a new traveller.
 
-Your login name is your email address. The company code should normally be pre-filled; otherwise EQAR's company code is `eqarbe`.
+**Profile update**  
+Please check your travel profile/personal data (i.e. name, birth date and gender) section after logging in, to see if the existing data are correct. You may also fill in additional profile information under the other headings: contact info, preferences (isle seat or window seat), membership numbers (frequent flyer cards) and passport/ visa. Once you have reviewed and saved your profile data, you can start booking your trip.
 
-If you used our previous tool (Amadeus e-Travel Management), all your preset preferences (e.g. frequent flyer numbers) were transferred.
+### Book your trip
 
-The Arrivon tool provides two different search possibilities:
+To start booking, please click on one of the green icons, which appear under the Welcome message and “my booking tools”.
 
-- **Price Search**: only the cheapest price will be offered and no other options will be shown
+**Filter options**  
+When you look for a flight you might get a lot of options in the results. You can narrow these down by using the filter window in your search. This can help you find flights at specific times, your preferred airlines or the most suitable airports.
 
-- **Schedule Search**: you can select from all possible flights, and the price will be calculated after flight selection; different fares for the same flight can be chosen.
+**Low cost airlines**  
+These can be booked in exactly the same way as any other air booking. However, they are always instant purchase tickets. Look out for the warnings before you confirm your booking.
 
-Some practical tips:
+**Rail**  
+The system has an integration with the rail platform, meaning you can use the same tool for your flights, to book rail. These are mainly Belgian, Dutch, French and German trains. NB: When booking a rail ticket, please note that when you confirm the booking, the ticket is automatically issued. You will receive the electronic rail tickets via mail.
 
-- The cheapest price found by Price Search might not include checked luggage. If you need checked luggage, please enter a remark for the FCm agent or book a fare with luggage using the Schedule Search.
-
-- The tool is able to book some low-cost airlines, but might not include all airlines. If no convenient flights are offered it can be worth investigating whether other low-cost airlines serve your route, and to book them elsewhere.
-
-- If you are searching for a return trip, the tool automatically also tries combinining two one-way flights (e.g. different airlines/alliances). However, it might not always find all possible combinations, so it can be useful to manually search for outward and return flights as two one-way bookings.
-
-- All your bookings made on Arrivon can be found under the section “View Your bookings”.
-
-### B-Europe: rail
-
-Train bookings are not integrated into Arrivon, but available through a separate portal.
-
-<https://travel.b-europe.com/fcmtravel/en>
-
-Normally, every user should have a login to the B-Europe site automatically. If you are unable to log in, please contact FCm directly at +32 2 719 9090 or by email at <fcm.zaventem@be.fcm.travel>.
-
-For Belgium, Germany, the Netherlands and France you can now also book local trains (in addition to ICE, Thalys and TGV). You can add country specific rail discount cards for these countries, too.
+**Book: flight/trains**  
+This is to compare travel by air and train (for the shorter distances). It will list both rail and flight options underneath each other, with prices and travel times.
 
 ### Customer Service
 
 In case of questions or problems related to bookings you can reach the FCm Travel customer service at:
 
-**+ 32 2 719 90 90** or <fcm.zaventem@be.fcm.travel>
-
-The regular customer service is available Monday to Friday, 8:30 - 18:00. Outside the regular hours please use the 24h helpline (+49 89 45 56 05 19) only in urgent cases since there is a 30€ per call charge to EQAR.
+|                   | Phone                                  | Email
+|-------------------|----------------------------------------|-----------------------------------------------------------------|
+| Travel Team       | [+32 2 7194828](tel:+3227194828)       | [fcm.zaventem@be.fcm.travel](mailto:fcm.zaventem@be.fcm.travel) |
+| Emergencies       | [+49 30 220120408](tel:+4930220120408) |
+| Technical Support | [+32 2 7194828](tel:+3227194828)       | [fcm.zaventem@be.fcm.travel](mailto:fcm.zaventem@be.fcm.travel) |
 
 ## Reimbursement rules
 
