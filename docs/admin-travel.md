@@ -102,5 +102,7 @@ Meals during travel and other refreshments will be reimbursed, where substantiat
 
 For any questions in relation to reimbursements and applying these rules please contact the Secretariat. Any reimbursements beyond these rules need to be agreed with the Secretariat, whenever possible in advance.
 
- [Download: reimbursement form](files/EQAR Reimbursement form_version2017.xls)
+## Reimbursement form
+
+[Launch the on-line reimbursement form](https://fs22.formsite.com/EQAR_forms/reimbursement/index.html)
 
