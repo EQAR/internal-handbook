@@ -174,6 +174,8 @@ The President acts as the legal representative of EQAR and is supported in their
 
 To ensure their impartiality the President may not hold a function in any of EQAR’s members or any QA agencies while holding the position of President.
 
+[Information on the current President](https://www.eqar.eu/about/eqar-structure/president/)
+
 Executive Board
 ---------------
 
@@ -182,6 +184,8 @@ The Executive Board (EB) is in charge of the ongoing management and strategic co
 The Executive Board is elected by the General Assembly for a two-year mandate. It designates the two Vice-Presidents and the Treasurer from among its members.
 
 The Executive Board has agreed to annually rotate the different functions amongst its members. The EB convenes four to five times annually, normally at the EQAR office in Brussels or in conjunction with other meetings.
+
+[Current EB members](https://www.eqar.eu/about/eqar-structure/executive-board/)
 
 Register Committee
 ------------------
@@ -200,7 +204,7 @@ RC members are expected to declare possible conflicts of interest and to recuse 
 
 Each Founding Member nominates two members of the Register Committee and one member is nominated by each Social Partner.
 
-The Register Committee is approved by the General Assembly for a mandate of two years. A member may be re-nominated up to three times. The RC convenes twice a year, usually for two-day meetings and in varying locations.
+The Register Committee is approved by the General Assembly for a mandate of two years. A member may be re-nominated up to three times. The RC convenes approximately three times per year, usually for two-day meetings and in varying locations.
 
 ### Governmental Observers
 
@@ -220,6 +224,8 @@ Observers are expected to declare possible conflicts of interest and to recuse t
 
 Observers have full access to the RC's documents via the EQAR internal website (<https://www.eqar.eu/login/>). Observers are expected to respect the confidentiality of the RC's deliberations and all documents other than the Committee's published decisions.
 
+[Current RC members](https://www.eqar.eu/about/eqar-structure/register-committee/)
+
 Appeals Committee
 -----------------
 
@@ -229,17 +235,14 @@ The Appeals Committee consists of a chair, two further members, a deputy chair a
 
 The Appeals Committee is elected for a mandate of four years. The members and deputy members of the AC can be re-elected once. The AC convenes as necessary. In case of appeals the Committee has 120 days to decide on whether to accept or reject the appeal. 
 
+[Current AC members](https://www.eqar.eu/about/eqar-structure/appeals-committee/)
+
 Secretariat
 -----------
 
 The Secretariat is in charge of the daily management and administration of EQAR. It supports all other statutory bodies and facilitates internal communication; serves as a contact point for agencies, members, partners and externals; and represents EQAR externally in consultation with the President.
 
-The Secretariat currently (2020) includes staff with the following positions:
-
- -   Director (full-time)
- -   Sernior Policy Analyst (full-time)
- -   Policy and Project Officer (full-time)
- -   Communications Officer (0,7 FTE)
-
 Based on a permanent mandate by the President, the Director also represents EQAR legally.
+
+[Current EQAR staff](https://www.eqar.eu/about/eqar-structure/secretariat/)
 
