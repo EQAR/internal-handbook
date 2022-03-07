@@ -454,14 +454,22 @@ The following tables summarise the statically and dynamically assigned IP addres
              
 | VPN IP            | Host                          | Services (in addition to public)                                                          | Host config       |
 | ----------------- | ----------------------------- | ----------------------------------------------------------------------------------------- | ----------------- |
-| 10.12.0.1         | EQAR application server (VPS) | SSH<br />DNS<br />LDAP<br />MariaDB<br />Kerberos KDC & kadmin see above (appsrv.eqar.eu) | static            |
+| 10.12.0.1         | EQAR application server (VPS) | SSH<br />DNS<br />HTTP (nginx)                                                            | static            |
+| 10.12.0.10        | Contact DB (appsrv Docker)    | HTTP(6080)<br />MariaDB(3306)<br />LDAP(389)                                              | static virtual IP |
+| 10.12.0.20        | Various (appsrv Docker)       | Onlyoffice(8080)<br />Collabora(9980)<br />Limesurvey(7080)<br />Handbook(6080)<br />
+                                                      DEQAR docs(5080)<br />MicroMDM(4080)                                                      | static virtual IP |
+| 10.12.0.30        | DEQAR live (appsrv Docker)    | Backend(8000)<br />Frontend(8080)<br />Postgres(5432)                                     | static virtual IP |
+| 10.12.0.31        | DEQAR sandbox (appsrv Docker) | Backend(8000)<br />Frontend(8080)<br />Postgres(5432)<br />Wordpress(9080)                | static virtual IP |
+| 10.12.0.40        | SSIkit (appsrv Docker)        | Core(7000)<br />Signatory(7001)<br />Custodian(7002)<br />Auditor(7003)<br />ESSIF(7004)  | static virtual IP |
+| 10.12.0.90        | Test various (appsrv Docker)  | Wordpress(9080)                                                                           | static virtual IP |
+| 10.12.0.91        | DEQAR test (appsrv Docker)    | Backend(8000)<br />Frontend(8080)<br />Postgres(5432)                                     | static virtual IP |
 | _10.12.0/24_      | _reserved (future use)_       | _routed to application server_                                                            |                   |
-| 10.12.1.1         | EQAR file server (office)     | see above                                                                                  | static           |
+| 10.12.1.1         | EQAR file server (office)     | see above                                                                                 | static            |
 | _10.12.1/24_      | _reserved (future use)_       | _routed to file server_                                                                   |                   |
 | 10.12.10/24       | Containers (systemd-nspawn)   | running on application server                                                             |                   |
-| 10.12.11/24       | Containers (Docker)           | running on application server                                                             |                   |
-| 10.12.12/24       | VPN clients                   | only IPs 100-250 used                                                                     |                   |
-| 10.12.100-250/24  | VPN clients (local subnets)   | one /24 subnet is reserved for and routed to each client                                  |                   |
+| 10.12.11/24       | Containers (Docker)           | deprecated                                                                                |                   |
+| 10.12.12/24       | VPN clients                   | only IPs 100-250 used                                                                     | WireGuard         |
+| 10.12.100-250/24  | VPN clients (local subnets)   | one /24 subnet reserved per client                                                        | WireGuard / local |
 
 | Guest IP          | Host                          | Services                              | Host config   |
 | ----------------- | ----------------------------- | ------------------------------------- | ------------- |
