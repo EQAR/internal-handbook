@@ -16,10 +16,11 @@
 The following in-kind benefits are available to all EQAR staff:
 
 - Lunch vouchers (8€/working day, personal contribution of 1,09€/day)
-- Complementary hospitalisation and dental insurance (DKV)
-- Supplementary pension scheme (KBC Team Benefit Plan, 5,35% of gross salary)
-- Cell phone and subscription (taxable benefit valued at 12€/month)
-- Bicycle provided (Swapfiets) and cycling allowance (0,23€/km), or contribution to public transport pass
+- Complementary hospitalisation ([DKV Premium Pro](https://www.dkv.be/nl/bedrijf/kmo/verzekeringen/hospitalisatieverzekering/dkv-premium-pro)) and dental ([DKV Plan Z](https://www.dkv.be/nl/bedrijf/kmo/verzekeringen/tandverzekering)) insurance
+- Supplementary pension scheme ([KBC Team Benefit Plan](https://www.kbcbrussels.be/business/en/products/insurance/insuring-yourself-and-your-staff/insure-your-staff/group-insurance.html), 5,35% of gross salary)
+- Cell phone and subscription ([BASE Pro Europe](https://www.base.be/en/self-employed/our-offer/monthly-plans.html), taxable benefit valued at 12€/month)
+- Bicycle provided ([Swapfiets](https://business.swapfiets.com/nl-BE)) and cycling allowance (0,23€/km), or contribution to public transport pass
+- Lump-sum teleworking compensation
 
 Depending on the function and contract, additional benefits might be granted.
 
