@@ -482,8 +482,7 @@ The following tables shows which service/application used which approach:
 | Zoom          | SAML           | n/a          | X          | limited    | limited   |
 | Wordpress     | LDAP           | local        | X          | X          |           |
 | Matomo        | LDAP           | n/a          | X          |            |           |
-| Contact DB    | PAM            | n/a          | X          |            |           |
-| Profile       | Kerberos       | n/a          | X          |            |           |
+| Contact DB    | LDAP           | LDAP         | X          | limited    | limited   |
 | Limesurvey    | LDAP           | n/a          | X          |            | X         |
 				
 Login to these services is currently **not** integrated in the single sign-on solution:
