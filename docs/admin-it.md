@@ -388,7 +388,7 @@ The canonical way to test the connection to the EQAR network is to open <https:/
 
 The following tables summarise the statically and dynamically assigned IP addresses in the networks:
 
-| Public IP     | Host                                      | DNS name(s)                                                                           | Services (available publicly)                                                                                                 | 
+| Public IP     | Host                                      | DNS name(s)                                                                           | Services (available publicly)                                                                     |
 | ------------- | ----------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | 212.44.107.66 | EQAR application server (KVM VPS)         | appsrv.eqar.eu,<br />various CNAMEs,<br />vpn.eqar.eu                                 | HTTP & HTTPS<br />WireGuard (51820)<br />LDAP (from websrv)<br />SSH (from known IPs)             |
 | 212.44.104.63 | EQAR webserver (LXC VPS)                  | www.eqar.eu<br />\*.eqar.eu                                                           | HTTP & HTTPS                                                                                      |
@@ -407,10 +407,11 @@ The following tables summarise the statically and dynamically assigned IP addres
 | 10.12.0.30       | deqar-live.int.eqar.eu    | DEQAR live (appsrv Docker)    | Backend(8000)<br />Frontend(8080)<br />Postgres(5432)                                     | static virtual IP |
 | 10.12.0.31       | deqar-sandbox.int.eqar.eu | DEQAR sandbox (appsrv Docker) | Backend(8000)<br />Frontend(8080)<br />Postgres(5432)<br />Wordpress(9080)                | static virtual IP |
 | 10.12.0.40       | ssikit.int.eqar.eu        | SSIkit (appsrv Docker)        | Core(7000)<br />Signatory(7001)<br />Custodian(7002)<br />Auditor(7003)<br />ESSIF(7004)  | static virtual IP |
+| 10.12.0.50       | syncthing.int.eqar.eu     | Syncthing (appsrv Docker)     | Sync(22000)<br />UI(8384)<br />Discovery(8443)                                            | static virtual IP |
+| 10.12.0.60       | auth-live.int.eqar.eu     | Auth services (appsrv Docker) | KDC(88)<br />Kadmin(749)<br />LDAP(389)<br />LdapCherry(8389)<br />SimpleSAMLphp(8000)    | static virtual IP |
 | 10.12.0.90       | docker-test.int.eqar.eu   | Test various (appsrv Docker)  | Wordpress(9080)                                                                           | static virtual IP |
 | 10.12.0.91       | deqar-test.int.eqar.eu    | DEQAR test (appsrv Docker)    | Backend(8000)<br />Frontend(8080)<br />Postgres(5432)                                     | static virtual IP |
 | _10.12.0/24_     |                           | _reserved (future use)_       | _routed to application server_                                                            |                   |
-| 10.12.10/24      |                           | Containers (systemd-nspawn)   | running on application server                                                             |                   |
 | 10.12.12/24      | _xx-mba.int.eqar.eu_      | VPN clients                   | only IPs 100-250 used                                                                     | WireGuard         |
 | 10.12.100-250/24 |                           | VPN clients (local subnets)   | one /24 subnet reserved per client                                                        | WireGuard / local |
 
